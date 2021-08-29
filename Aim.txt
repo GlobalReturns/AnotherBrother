@@ -6,7 +6,7 @@ local LocalPlayer = Players.LocalPlayer
 local accomidationfactor = 0.165
 
 -- // Silent Aim Module
-local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/GlobalReturns/RipGlobal/main/Global.txt"))()
+local SilentAim = loadstring(game:HttpGet("https://raw.githubusercontent.com/GlobalReturns/AnotherBrother/main/Global.txt"))()
 SilentAim.TeamCheck = false
 -- // Metatable vars
 local mt = getrawmetatable(game)
