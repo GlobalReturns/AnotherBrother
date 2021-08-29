@@ -60,3 +60,15 @@ if input.KeyCode == Enum.KeyCode.C then
 _G.SAEnabled = false
 end
 end)
+-- // Fov
+game:GetService("UserInputService").InputBegan:connect(function(input)
+if input.KeyCode == Enum.KeyCode.Minus then
+SilentAim.ShowFOV = SilentAim.ShowFOV == true
+end
+end)
+--
+game:GetService("UserInputService").InputBegan:connect(function(input)
+if input.KeyCode == Enum.KeyCode.Equals then
+SilentAim.ShowFOV = SilentAim.ShowFOV == false
+end
+end)
