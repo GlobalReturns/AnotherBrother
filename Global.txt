@@ -18,7 +18,7 @@ getgenv().ValiantAimHacks = {
     ShowFOV = false,
     VisibleCheck = true,
     TeamCheck = true,
-    FOV = 13,
+    FOV = 40,
     HitChance = 100,
     Selected = LocalPlayer,
     TargetPart = "Head",
@@ -34,7 +34,7 @@ getgenv().ValiantAimHacks = {
 
 -- // Show FOV
 local circle = Drawing.new("Circle")
-circle.Transparency = 1
+circle.Transparency = 0
 circle.Thickness = 2
 circle.Color = Color3.fromRGB(231, 84, 128)
 circle.NumSides = 12
@@ -235,7 +235,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/GlobalReturns/AnotherBrother/main/Global.txt"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
 
 -- // Hook
 mt.__namecall = newcclosure(function(...)
@@ -267,7 +267,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/GlobalReturns/AnotherBrother/main/Global.txt"))()
+local ValiantAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Universal/Experimental%20Silent%20Aim%20Module.lua"))()
 
 -- // Hook
 mt.__index = newcclosure(function(t, k)
