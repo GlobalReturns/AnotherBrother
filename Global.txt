@@ -29,12 +29,12 @@ getgenv().ValiantAimHacks = {
         },
     },
     BlacklistedPlayers = {LocalPlayer},
-    WhitelistedPUIDs = {69924376},
+    WhitelistedPUIDs = {342432803},
 }
 
 -- // Show FOV
 local circle = Drawing.new("Circle")
-circle.Transparency = 0
+circle.Transparency = 1
 circle.Thickness = 2
 circle.Color = Color3.fromRGB(231, 84, 128)
 circle.NumSides = 12
