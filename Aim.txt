@@ -46,6 +46,8 @@ mt.__index = newcclosure(function(t, k)
     end
     return backupindex(t, k)
 end)
+-- // Revert
+setreadonly(mt, true)
 -- // Mains
 game:GetService("UserInputService").InputBegan:connect(function(input)
 if input.KeyCode == Enum.KeyCode.V then
