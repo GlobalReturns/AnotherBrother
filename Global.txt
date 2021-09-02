@@ -29,7 +29,7 @@ getgenv().ValiantAimHacks = {
         },
     },
     BlacklistedPlayers = {LocalPlayer},
-    WhitelistedPUIDs = {342432803},
+    WhitelistedPUIDs = {69924376},
 }
 
 -- // Show FOV
@@ -43,7 +43,7 @@ function ValiantAimHacks.updateCircle()
     if (circle) then
         -- // Set Circle Properties
         circle.Visible = ValiantAimHacks.ShowFOV
-        circle.Radius = (ValiantAimHacks.FOV * 3)
+        circle.Radius = (ValiantAimHacks.FOV * 1)
         circle.Position = Vector2.new(Mouse.X, Mouse.Y + GuiService:GetGuiInset().Y)
 
         -- // Return circle
